@@ -4,19 +4,22 @@
         "fname": "최연웅",
         "mname": "",
         "lname": "",
+        "nick": "1993.03.25",
         "address": {
             "list": [
                 "서울특별시 관악구 남부순환로 192길 46"
             ]
         },
         "email": "seaf@kakao.com",
-        "mob": "-----------------------------"
+        "mob": "----------------------------------------------------------"
     },
     "educations": [{
             "periodStart": "2009.03",
             "periodEnd": "2012.02",
             "course": "장충 고등학교",
+            "score": " ",
             "inst": "인문계열",
+            "board": " ",
             "courses": []
         },
         {
@@ -36,7 +39,7 @@
         ["Jquery", "devicon-jquery-plain colored"],
         ["JAVA", "devicon-java-plain colored"],
         ["Spring", "devicon-spring-plain"],
-        ["MSSQL", "devicon-microsoftsqlserver-plain colored"],
+        ["MSSQL", "devicon-microsoftsqlserver-plain-wordmark colored"],
         ["MySQL", "devicon-mysql-plain colored"],
         ["VisualStudio", "devicon-visualstudio-plain colored"],
         ["Intellij", "devicon-intellij-plain colored"],

@@ -20,7 +20,7 @@ div.content {
     font-size: 1.5rem;
     font-weight: bold;
     /* color: #01a252; */
-    color: teal;
+    color: rgb(19, 145, 145);
 }
 
 .position {
@@ -145,6 +145,7 @@ div.content {
 
 .skill {
     text-align: center;
+    margin-right: 5%;
 }
 
 .skill .icon {
@@ -202,7 +203,7 @@ object {
 }
 
 a {
-    color: green;
+    color: rgb(31, 170, 31);
 }
 
 * {
@@ -210,10 +211,11 @@ a {
 }
 
 body {
-    background-color: #1f1f1d;
+    background-color: #ffffff;
     /* background-color: #646464; */
-    color: #b6b6b6;
+    color: #000000;
     font-family: "Do Hyeon";
+    font-family: "Jua";
     font-size: 1.15rem;
     font-display: auto;
 }

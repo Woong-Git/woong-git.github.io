@@ -212,7 +212,7 @@ function loadMoghysSays() {
     const mySaysInnerHtml = `
 	<div class="col m6 s12">
 		<h6 class="title">직장 생활 신조:</h6>	
-		<p>최고의 복지는 최고의 동료다. 최고야 동료가 되자.</p>
+		<p>최고의 복지는 최고의 동료다. <br/>최고의 동료가 되자.</p>
 	</div>
 	<div class="col m6 s12 gratitudes">
 		<h6 class="title">Warm Gratitudes</h6>
@@ -221,7 +221,7 @@ function loadMoghysSays() {
     $('#mySays').html(mySaysInnerHtml);
 }
 
-$.get("js/profile.json",
+$.get("https://woong-git.github.io/js/profile.json",
     function(data, status) {
         console.log('Got profile:', data, ' \nwith status:', status);
         if (status !== "success") {
