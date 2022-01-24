@@ -1,376 +1,69 @@
 {
     "personalInfo": {
         "myimg": "profilePic.jpg",
-        "fname": "Shubham",
-        "mname": "Parashram",
-        "lname": "Sawant",
-        "nick": "moghya",
+        "fname": "최",
+        "mname": "연",
+        "lname": "웅",
+        "nick": "최연웅",
         "address": {
             "list": [
-                "Gupta Layout, Mahakali road, Washim, District-Washim, Maharashtra, India 444505 ",
-                "'OM' Jaihind colony, Vishrambag, Sangli District-Sangli, Maharashtra, India 416415"
+                "서울특별시 관악구 남부순환로 192길 46"
             ]
         },
-        "email": "sawantshubham571@gmail.com",
+        "email": "seaf@kakao.com",
         "mob": "-----------------------------"
     },
     "educations": [{
-            "periodStart": "Jul'14",
-            "periodEnd": "May'18",
-            "course": "B.Tech Information Technology",
-            "score": "7.59 CGPA",
-            "inst": "Walchand College of Engineering, Sangli",
-            "board": "Shivaji University",
-            "courses": [{
-                    "courseCode": "3IT202",
-                    "courseName": "Data Structures",
-                    "courseScore": "9/10",
-                    "sn": 1
-                },
-                {
-                    "courseCode": "3IT304",
-                    "courseName": "Computer Algorithms",
-                    "courseScore": "7/10",
-                    "sn": 2
-                },
-                {
-                    "courseCode": "3IT331",
-                    "courseName": "Machine Learning",
-                    "courseScore": "10/10",
-                    "sn": 3
-                },
-                {
-                    "courseCode": "3OE---",
-                    "courseName": "Data Analytics",
-                    "courseScore": "8/10",
-                    "sn": 4
-                },
-                {
-                    "courseCode": "3IT211",
-                    "courseName": "Theory of Computation",
-                    "courseScore": "8/10",
-                    "sn": 5
-                },
-                {
-                    "courseCode": "3IT201",
-                    "courseName": "Discrete Mathemactics",
-                    "courseScore": "7/10",
-                    "sn": 6
-                },
-                {
-                    "courseCode": "3IT303",
-                    "courseName": "Operating System",
-                    "courseScore": "8/10",
-                    "sn": 10
-                },
-                {
-                    "courseCode": "3IT322",
-                    "courseName": "Unix Operating System",
-                    "courseScore": "8/10",
-                    "sn": 11
-                },
-                {
-                    "courseCode": "3IT301",
-                    "courseName": "Database Engineering",
-                    "courseScore": "9/10",
-                    "sn": 12
-                },
-                {
-                    "courseCode": "3IT321",
-                    "courseName": "Advanced Database Engineering",
-                    "courseScore": "9/10",
-                    "sn": 13
-                },
-                {
-                    "courseCode": "3IT204",
-                    "courseName": "Data Communication & Networking",
-                    "courseScore": "7/10",
-                    "sn": 15
-                },
-                {
-                    "courseCode": "3IT213",
-                    "courseName": "Computer & Wireless Networks",
-                    "courseScore": "6/10",
-                    "sn": 16
-                },
-                {
-                    "courseCode": "3IT263",
-                    "courseName": "Computer & Wireless Networks Lab",
-                    "courseScore": "8/10",
-                    "sn": 34
-                },
-                {
-                    "courseCode": "3IT212",
-                    "courseName": "Computer Organization & Architechture",
-                    "courseScore": "7/10",
-                    "sn": 18
-                },
-                {
-                    "courseCode": "3IT372",
-                    "courseName": "Parallel Programming Lab",
-                    "courseScore": "10/10",
-                    "sn": 32
-                },
-                {
-                    "courseCode": "3IT324",
-                    "courseName": "Information Storage & Management",
-                    "courseScore": "6/10",
-                    "sn": 21
-                },
-                {
-                    "courseCode": "3MA204",
-                    "courseName": "Linear Algebra",
-                    "courseScore": "7/10",
-                    "sn": 7
-                },
-                {
-                    "courseCode": "3MA215",
-                    "courseName": "Statistics & Fuzzy Systems",
-                    "courseScore": "6/10",
-                    "sn": 8
-                },
-                {
-                    "courseCode": "3IT252",
-                    "courseName": "Data Structures Lab",
-                    "courseScore": "10/10",
-                    "sn": 29
-                },
-                {
-                    "courseCode": "3IT203",
-                    "courseName": "Processor Architechture",
-                    "courseScore": "7/10",
-                    "sn": 17
-                },
-                {
-                    "courseCode": "3IT281",
-                    "courseName": "Mini Project - I",
-                    "courseScore": "10/10",
-                    "sn": 22
-                },
-                {
-                    "courseCode": "3IT214",
-                    "courseName": "System Programming",
-                    "courseScore": "7/10",
-                    "sn": 19
-                },
-                {
-                    "courseCode": "3IT255",
-                    "courseName": "Programming Lab - I (C++)",
-                    "courseScore": "10/10",
-                    "sn": 26
-                },
-                {
-                    "courseCode": "3IT352",
-                    "courseName": "Web Technology Lab",
-                    "courseScore": "9/10",
-                    "sn": 33
-                },
-                {
-                    "courseCode": "3IT342",
-                    "courseName": "Mini Project - IV",
-                    "courseScore": "10/10",
-                    "sn": 25
-                },
-                {
-                    "courseCode": "3IT341",
-                    "courseName": "Mini-Project - III",
-                    "courseScore": "10/10",
-                    "sn": 24
-                },
-                {
-                    "courseCode": "3IT302",
-                    "courseName": "Software Engineering Design",
-                    "courseScore": "7/10",
-                    "sn": 20
-                },
-                {
-                    "courseCode": "3IT371",
-                    "courseName": "Unix Operating System Lab",
-                    "courseScore": "10/10",
-                    "sn": 30
-                },
-                {
-                    "courseCode": "3IT282",
-                    "courseName": "Mini Project - II",
-                    "courseScore": "10/10",
-                    "sn": 23
-                },
-                {
-                    "courseCode": "3IT265",
-                    "courseName": "Programming Lab - II (Java)",
-                    "courseScore": "10/10",
-                    "sn": 27
-                },
-                {
-                    "courseCode": "3IT312",
-                    "courseName": "Cloud Computing",
-                    "courseScore": "7/10",
-                    "sn": 14
-                },
-                {
-                    "courseCode": "3IT323",
-                    "courseName": "Information Theory",
-                    "courseScore": "8/10",
-                    "sn": 9
-                },
-                {
-                    "courseCode": "2IT253",
-                    "courseName": "Processor Architechture Lab",
-                    "courseScore": "10/10",
-                    "sn": 28
-                },
-                {
-                    "courseCode": "3IT351",
-                    "courseName": "Database Engineering Lab",
-                    "courseScore": "10/10",
-                    "sn": 31
-                }
-            ]
+            "periodStart": "2009.03",
+            "periodEnd": "2012.02",
+            "course": "장충 고등학교",
+            "score": "-",
+            "inst": "인문계열",
+            "board": "-",
+            "courses": []
         },
         {
-            "periodStart": "Apr'13",
-            "periodEnd": "May'14",
-            "course": "All India Senior School Examination",
-            "score": "89.4%",
-            "inst": "Jawahar Navodaya Vidyalaya,Washim",
-            "board": "CBSE Chennai",
-            "courses": [{
-                    "courseCode": "041",
-                    "courseName": "Mathemactics",
-                    "courseScore": "86/100",
-                    "sn": 1
-                },
-                {
-                    "courseCode": "042",
-                    "courseName": "Physics",
-                    "courseScore": "87/100",
-                    "sn": 2
-                },
-                {
-                    "courseCode": "043",
-                    "courseName": "Chemistry",
-                    "courseScore": "86/100",
-                    "sn": 3
-                },
-                {
-                    "courseCode": "083",
-                    "courseName": "Computer Science",
-                    "courseScore": "94/100",
-                    "sn": 4
-                }
-            ]
+            "periodStart": "2012.03",
+            "periodEnd": "2018.02",
+            "course": "한성 대학교",
+            "score": "?/4.5",
+            "inst": "컴퓨터공학부",
+            "board": "-",
+            "courses": []
         }
     ],
     "skills": [
-        ["C", "devicon-c-plain colored"],
-        ["C++", "devicon-cplusplus-plain colored"],
-        ["Python", "devicon-python-plain colored"],
+        ["C#", "devicon-csharp-plain colored"],
+        ["ASP.NET", "devicon-dot-net-plain colored"],
         ["JavaScript", "devicon-javascript-plain colored"],
-        ["NodeJS", "devicon-nodejs-plain colored"],
-        ["Go", "devicon-go-plain colored"],
-        ["PHP", "devicon-php-plain colored"],
+        ["Jquery", "devicon-jquery-plain colored"],
+        ["JAVA", "devicon-java-plain colored"],
+        ["Spring", "devicon-spring-plain"],
+        ["MSSQL", "devicon-microsoftsqlserver-plain colored"],
         ["MySQL", "devicon-mysql-plain colored"],
-        ["MongoDB", "devicon-mongodb-plain colored"],
-        ["Redis", "devicon-redis-plain colored"],
-        ["Linux", "devicon-linux-plain"],
-        ["Bash", "devicon-bash-plain"],
-        ["GCC", "devicon-gcc-plain colored"],
-        ["Ubuntu", "devicon-ubuntu-plain colored"],
+        ["Intellij", "devicon-intellij-plain colored"],
         ["Git", "devicon-git-plain colored"],
-        ["Docker", "devicon-docker-plain colored"],
-        ["Jenkins", "devicon-jenkins-plain colored"],
-        ["Digital Ocean", "devicon-digitalocean-plain colored"],
-        ["AWS", "devicon-amazonwebservices-original colored"],
-        ["HTML5", "devicon-html5-plain colored"],
-        ["CSS3", "devicon-css3-plain colored"],
-        ["VSCode", "devicon-vscode-plain colored"],
-        ["GitHub", "devicon-github-plain"],
         ["Jira", "devicon-jira-plain colored"]
     ],
-    "experince": [{
-            "sn": 6,
-            "link": "",
-            "workPosition": "Scout Troop Leader",
-            "periodStart": "April'10",
-            "periodEnd": "May'12",
-            "organisation": "JNV,Washim",
-            "experience": "It was nice to be a part of Scouting.Arranged camps,hikes & awareness rallies.",
-            "type": "volunteer"
-        },
-        {
-            "sn": 5,
-            "link": "http://wcepace.in/",
-            "workPosition": "Asst. Program Director in Events",
-            "periodStart": "Apr'15",
-            "periodEnd": "Mar'16",
-            "organisation": "Personality Advancement Circle of Engineers.",
-            "experience": "Learnt how to organize professional events & actvites, how to manage resources & make most out of everything.",
-            "type": "volunteer"
-        },
-        {
-            "sn": 4,
-            "link": "http://wcepace.in/",
-            "workPosition": "Joint. Skills Developer",
-            "periodStart": "Apr'16",
-            "periodEnd": "Jan'17",
-            "organisation": "Personality Advancement Circle of Engineers.",
-            "experience": "Good to arrange Meet ups for professional skill development of fellow PACErs.",
-            "type": "volunteer"
-        },
-        {
-            "sn": 3,
-            "link": "http://wcepace.in/",
-            "workPosition": "Cheif. Skills Developer",
-            "periodStart": "Jan'17",
-            "periodEnd": "Dec'17",
-            "organisation": "Personality Advancement Circle of Engineers.",
-            "experience": [
-                "Good to arrange Meet ups for professional skill development of fellow PACErs."
-            ],
-            "type": "volunteer"
-        },
-        {
-            "sn": 2,
-            "link": "http://pitchteq.com/",
-            "workPosition": "PHP Developer",
-            "periodStart": "Jul'16",
-            "periodEnd": "Jul'18",
-            "organisation": "PitchTeQ ",
-            "experience": [
-                "A group of college students established a web solutions startup. Worked on an e-commerce project."
-            ],
-            "type": "volunteer"
-        },
-        {
-            "sn": 1,
-            "link": "http://www.praxisinfotech.com/",
-            "workPosition": "Web Development Intern",
-            "periodStart": "Jun'17",
-            "periodEnd": "Jul'17",
-            "organisation": "Praxis Infotech ",
-            "experience": [
-                "Developed a PHP, MySQL web application. Added a layer on top of Google maps for places & events."
-            ],
-            "type": "volunteer"
-        },
+    "experince": [
         {
             "sn": 0,
-            "link": "https://www.media.net/",
-            "workPosition": "Software Development Engineer",
-            "periodStart": "Jul'18",
-            "periodEnd": "Feb'20",
-            "organisation": "Media.Net",
+            "link": "https://www.payletter.com/ko/",
+            "workPosition": "Main Development Engineer",
+            "periodStart": "2018.04.16",
+            "periodEnd": "현재",
+            "organisation": "Lezhin Comics 빌링 시스템 운영",
             "experience": [{
-                    "team": "Team: VPN & Proxy Service",
-                    "periodStart": "Aug'19",
-                    "periodEnd": "Feb'20",
+                    "project": "Lezhin Comics 빌링 시스템 운영",
+                    "periodStart": "2018.10.01",
+                    "periodEnd": "Present",
                     "details": [
                         "Configured & deployed Proxy & VPN servers. Developed & distributed Chrome & Firefox proxy browser extensions.",
                         "Developed & deployed multi-threaded, UDP sockets based DNS server using C++."
                     ]
                 },
                 {
-                    "team": "Team: Applications Distribution Platform",
+                    "project": "Team: Applications Distribution Platform",
                     "periodStart": "Sep'18",
                     "periodEnd": "Aug'19",
                     "details": [
@@ -381,7 +74,7 @@
                     ]
                 },
                 {
-                    "team": "Team: Email Marketing Platform",
+                    "project": "Team: Email Marketing Platform",
                     "periodStart": "Jul'18",
                     "periodEnd": "Sep'18",
                     "details": [
@@ -394,14 +87,14 @@
             "location": "Mumbai, India"
         },
         {
-            "sn": -1,
+            "sn": 1,
             "link": "https://www.cohesity.com",
             "workPosition": "Member of Technical Staff 3",
             "periodStart": "Feb'20",
             "periodEnd": "July'21",
             "organisation": "Cohesity",
             "experience": [{
-                "team": "Squad: Data Protection Virtualisation",
+                "project": "Squad: Data Protection Virtualisation",
                 "periodStart": "Feb'20",
                 "periodEnd": "July'21",
                 "details": [
@@ -422,14 +115,14 @@
             "location": "Remote / Pune, India"
         },
         {
-            "sn": -2,
+            "sn": 2,
             "link": "https://www.bloomberg.com",
             "workPosition": "Senior Software Engineer",
             "periodStart": "Aug'21",
             "periodEnd": "Present",
             "organisation": "Bloomberg Lp",
             "experience": [{
-                "team": "Team: Exchange Trading Connectivity Europe",
+                "project": "Team: Exchange Trading Connectivity Europe",
                 "periodStart": "Aug'21",
                 "periodEnd": "Present",
                 "details": [

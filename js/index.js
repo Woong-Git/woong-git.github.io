@@ -78,7 +78,7 @@ function loadWorks(experince) {
             }
             experienceDetails += `
 			<div class="row team">
-				<span class="teamName">[${team.periodStart}-${team.periodEnd}] ${team.team}</span>
+				<span class="teamName">[${team.periodStart}-${team.periodEnd}] ${team.project}</span>
 				<div class="row">${teamExpDetails}</div>
 			</div>
 			`;
@@ -160,7 +160,7 @@ function onBodyLoad() {
 
 swal({
         title: "Hello World!!!",
-        text: "Hello visitor, you have landed upon little webspace of moghya. I hope you're doing well. \n Are you hiring ?",
+        text: "Hello visitor, you have landed upon little webspace of Yeon-Woong. I hope you're doing well. \n Are you hiring ?",
         buttons: {
             confirm: {
                 text: "Yes, I'm hiring.",
