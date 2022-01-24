@@ -209,35 +209,16 @@ swal({
 
 
 function loadMoghysSays() {
-    const moghyaSaysInnerHtml = `
+    const mySaysInnerHtml = `
 	<div class="col m6 s12">
-		<h6 class="title">Recipe for this website:</h6>	
-		<p>
-			Would you like to have your own portfolio in this template ?
-            It"s pretty easy, <a href="https://github.com/moghya">moghya</a> covered it for everyone. 
-			All the content on this website is dynamically loaded from JSON data.
-			Fork this <a href="https://github.com/moghya/moghya.github.io/">repo</a> on github.
-            Edit <a href="https://github.com/moghya/moghya.github.io/blob/master/js/profile.json">js/profile.json</a> for adding your data.
-            Note that you need to run a webserver to ensure that the json file is served and then the HTML is rendered by using data in it.
-			<a href="https://medium.com/howcatcancode/developer-profile-template-2017-219f43147efe">Read more</a><br>
-			If you like this website, consider giving a star to its repo <a href="https://github.com/moghya/moghya.github.io/">here</a>.
-		</p>
+		<h6 class="title">직장 생활 신조:</h6>	
+		<p>최고의 복지는 최고의 동료다. 최고야 동료가 되자.</p>
 	</div>
 	<div class="col m6 s12 gratitudes">
 		<h6 class="title">Warm Gratitudes</h6>
-		<a href="https:https://pages.github.com/">Github Pages</a>
-		<a href="https://stackoverflow.com/">Stack Overflow</a>
-		<a href="https://jquery.com/">jQuery</a>
-		<a href="http://materializecss.com/">Materialize</a>
-		<a href="https://fonts.google.com/">Google Fonts</a>
-		<a href="http://konpa.github.io/devicon/">Devicons</a>
-		<a href="http://www.flaticon.com/">Flaticons</a>
-		<a href="https://simpleicons.org/">SimpleIcons</a>
-		<a href="http://www.mattboldt.com/demos/typed-js/">TypedJs</a>				
-		<a href="https://daneden.github.io/animate.css/">Animate.CSS</a>
-		<a href="http://t4t5.github.io/sweetalert/">Sweetalert</a>
+		<a href="https://github.com/moghya/moghya.github.io/">Shubham Sawant</a>
 	</div>`;
-    $('#moghyaSays').html(moghyaSaysInnerHtml);
+    $('#mySays').html(mySaysInnerHtml);
 }
 
 $.get("js/profile.json",
@@ -249,6 +230,7 @@ $.get("js/profile.json",
         let profile = data;
         let pInfo = profile.personalInfo;
         $('#name').html(`${pInfo.fname} ${pInfo.lname}<sub>&lt;${pInfo.nick}/&gt;`);
+        $('#name').css(`float`,`right`);
         // $('#nick').html('&lt' + pInfo.nick + '/&gt');
         $('#image img').attr('src', 'img/' + pInfo.myimg);
         $('#contact').html(`<span>${pInfo.mob}</span></br><span><a href="mailto:${pInfo.email}">${pInfo.email}</a></span>`);

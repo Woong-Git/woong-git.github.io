@@ -184,7 +184,7 @@ object {
     text-align: center;
 }
 
-#moghyaSays {
+#mySays {
     font-size: 1rem;
 }
 
@@ -213,7 +213,7 @@ body {
     background-color: #1f1f1d;
     /* background-color: #646464; */
     color: #b6b6b6;
-    font-family: "Lekton", monospace;
+    font-family: "Do Hyeon";
     font-size: 1.15rem;
     font-display: auto;
 }

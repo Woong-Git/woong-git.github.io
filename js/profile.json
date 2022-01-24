@@ -1,10 +1,9 @@
 {
     "personalInfo": {
         "myimg": "profilePic.jpg",
-        "fname": "최",
-        "mname": "연",
-        "lname": "웅",
-        "nick": "최연웅",
+        "fname": "최연웅",
+        "mname": "",
+        "lname": "",
         "address": {
             "list": [
                 "서울특별시 관악구 남부순환로 192길 46"
@@ -17,9 +16,7 @@
             "periodStart": "2009.03",
             "periodEnd": "2012.02",
             "course": "장충 고등학교",
-            "score": "-",
             "inst": "인문계열",
-            "board": "-",
             "courses": []
         },
         {
@@ -28,7 +25,7 @@
             "course": "한성 대학교",
             "score": "?/4.5",
             "inst": "컴퓨터공학부",
-            "board": "-",
+            "board": " ",
             "courses": []
         }
     ],
@@ -41,6 +38,7 @@
         ["Spring", "devicon-spring-plain"],
         ["MSSQL", "devicon-microsoftsqlserver-plain colored"],
         ["MySQL", "devicon-mysql-plain colored"],
+        ["VisualStudio", "devicon-visualstudio-plain colored"],
         ["Intellij", "devicon-intellij-plain colored"],
         ["Git", "devicon-git-plain colored"],
         ["Jira", "devicon-jira-plain colored"]
@@ -48,7 +46,7 @@
     "experince": [
         {
             "sn": 0,
-            "link": "https://www.payletter.com/ko/",
+            "link": "https://www.lezhinus.com/en/",
             "workPosition": "Main Development Engineer",
             "periodStart": "2018.04.16",
             "periodEnd": "현재",
@@ -58,8 +56,10 @@
                     "periodStart": "2018.10.01",
                     "periodEnd": "Present",
                     "details": [
-                        "Configured & deployed Proxy & VPN servers. Developed & distributed Chrome & Firefox proxy browser extensions.",
-                        "Developed & deployed multi-threaded, UDP sockets based DNS server using C++."
+                        "Lezin Comics의 결제 시스템 연동 및 빌링 시스템 운영",
+                        "결제수단 연동 및 유저 과금 관리.",
+                        "GPOQ, Stripe, GMO, SoftBank 등의 결제 수단 연동 (일반결제/정기결제)",
+                        "배치 프로그램을 통한 업무 자동화 (대사 작업)"
                     ]
                 },
                 {
@@ -83,8 +83,7 @@
                 }
             ],
             "type": "work",
-            "status": "Fulltime",
-            "location": "Mumbai, India"
+            "status": "ASP.NET / JQuery / MSSQL / JIRA / Slack"
         },
         {
             "sn": 1,
@@ -111,8 +110,7 @@
                 ]
             }],
             "type": "work",
-            "status": "Fulltime",
-            "location": "Remote / Pune, India"
+            "status": "ASP.NET / JQuery / MSSQL / JIRA / Slack"
         },
         {
             "sn": 2,
@@ -474,22 +472,25 @@
         {
             "show": true,
             "sn": -2,
-            "projectTitle": "In Memory key-value Store",
-            "periodStart": "Jun'21",
+            "projectTitle": "Lezhin Comics 빌링 시스템 운영",
+            "periodStart": "2018.10.01",
             "periodEnd": "Present",
             "toolsUsed": [
-                "c++",
-                "cmake"
+                "ASP.NET",
+                "JQuery",
+                "MS-SQL"
             ],
             "tags": [],
             "info": [
-                "Developed a Multithread key-value store application using C++, Network Socket Programing.",
-                "Working to make it a gRPC based distributed key-value store."
+                        "Lezin Comics의 결제 시스템 연동 및 빌링 시스템 운영",
+                        "결제수단 연동 및 유저 과금 관리.",
+                        "GPOQ, Stripe, GMO, SoftBank 등의 결제 수단 연동 (일반결제/정기결제)",
+                        "배치 프로그램을 통한 업무 자동화 (대사 작업)"
             ],
-            "link": "https://github.com/moghya/key-value-store"
+            "link": "https://www.lezhinus.com/en/"
         }
     ],
-    "summary": "<p>Hello,</p><p>Shubham is a Computer Science professional. He's interested in Algorithms, Distributed Systems, System Software, Web Applications & Machine Learning. He graduated with B. Tech  in Information Technology. Shubham has 3+ years of full-time experience as Software Design & Development Engineer. </p><p>Shubham is Passionate about Programming & delivering Well-Designed, Correct, Clean, Test-Covered & Scalable software solutions. He Seeks to Learn & Tries to all in a way that Makes Life Easier. </p><p>He's currently working at Bloomberg Lp as Senior Software Engineer. At Bloomberg, he's developing Trading Software using Modern C++ & FIX. Before that he was at Cohesity,  A Data Management Company. At Cohesity, he was developing Distributed System Software using Modern C++. Before Cohesity, Shubham was at Media.Net, An AdTech Company. At Media.Net, he was developing Full-stack Web & Desktop applications for search monetisation. </p>",
+    "summary": "<p> 안녕하세요! 5년차 백엔드 개발자 최연웅입니다. <br/> Clean Code와 효율적인 코딩에 대한 고민을 생활화합니다. <br/> 내 자신을 되돌아 볼 줄 알아야 나에대한 노력을 할 수 있습니다. <br/> 어제 입사한 신입에게도 배울 것이 있다는 것을 항상 생각합니다. <br/> 모르는 것은 부끄러운 것이 아니라 모른 채로 있는 것이 부끄러운 것 입니다.</p>",
     "profileLinks": [{
             "name": "Github",
             "icon": "github.svg",
@@ -501,24 +502,6 @@
             "icon": "linkedin.svg",
             "link": "https://www.linkedin.com/in/moghya",
             "sn": 1
-        },
-        {
-            "name": "Twitter",
-            "icon": "twitter.svg",
-            "link": "https://twitter.com/moghya",
-            "sn": 3
-        },
-        {
-            "name": "Medium",
-            "icon": "medium.svg",
-            "link": "https://medium.com/howcatcancode",
-            "sn": 4
-        },
-        {
-            "name": "StackOverflow",
-            "icon": "stack-overflow.png",
-            "link": "https://stackoverflow.com/users/5186709/moghya",
-            "sn": 5
         }
     ],
     "likes": [{
