@@ -26,7 +26,7 @@
             "periodStart": "2012.03",
             "periodEnd": "2018.02",
             "course": "한성 대학교",
-            "score": "?/4.5",
+            "score": " ",
             "inst": "컴퓨터공학부",
             "board": " ",
             "courses": []
@@ -49,94 +49,53 @@
     "experince": [
         {
             "sn": 0,
-            "link": "https://www.lezhinus.com/en/",
-            "workPosition": "Main Development Engineer",
+            "link": "https://www.payletter.com/ko/",
+            "workPosition": "Development Engineer",
             "periodStart": "2018.04.16",
             "periodEnd": "현재",
-            "organisation": "Lezhin Comics 빌링 시스템 운영",
+            "organisation": "페이레터",
             "experience": [{
-                    "project": "Lezhin Comics 빌링 시스템 운영",
-                    "periodStart": "2018.10.01",
+                    "team": "서비스개발1팀",
+                    "periodStart": "2018.04.16",
+                    "periodEnd": "2019.06.03",
+                    "details": [
+                        "빌링 시스템 운영팀.",
+                        "첫 회사의 첫 팀으로, 모든 일에 적극적이고 노력하는 신입의 마음으로 임하였다.",
+                        "실력은 부족하였으나 현업이라는 것에 대해서 많이 배웠던 기간.",
+                        "고객사의 빌링 시스템을 안정적으로 운영하고, 요청사항에 대하여 능숙하게 처리하며, 각종 이슈에 대하여 유연하게 대처한다."
+                    ]
+                },
+                {
+                    "team": "기술연구소",
+                    "periodStart": "2019.06.03",
+                    "periodEnd": "2021.05.01",
+                    "details": [
+                        "빌링 시스템 개발팀.",
+                        "다양한 프로젝트를 시작부터 경험해볼 수 있었던 기간.",
+                        "그동안 배웠던 것을 적용하고 새로운 것을 많이 접하였다.",
+                        "여러 프로젝트를 겪으며, 기술적으로 배운 것이 많았다.",
+                        "고객사와의 원활한 커뮤니케이션을 통하여 완성도 높은 프로젝트를 만든다."
+                    ]
+                },
+                {
+                    "team": "플랫폼기술5팀",
+                    "periodStart": "2021.05.01",
                     "periodEnd": "Present",
                     "details": [
-                        "Lezin Comics의 결제 시스템 연동 및 빌링 시스템 운영",
-                        "결제수단 연동 및 유저 과금 관리.",
-                        "GPOQ, Stripe, GMO, SoftBank 등의 결제 수단 연동 (일반결제/정기결제)",
-                        "배치 프로그램을 통한 업무 자동화 (대사 작업)"
-                    ]
-                },
-                {
-                    "project": "Team: Applications Distribution Platform",
-                    "periodStart": "Sep'18",
-                    "periodEnd": "Aug'19",
-                    "details": [
-                        "Developed templated code for full stack Web & Desktop applications. Automated application build & monitoring processes.",
-                        "Performed extensive research, analysis for POC creation of novel solutions to business requirements.",
-                        "Developed MacOs (Safari App Extension) app for search monetisation using Swift with installer & auto-updater features from scratch.",
-                        "Developed node-js module to restructure & rename source directory."
-                    ]
-                },
-                {
-                    "project": "Team: Email Marketing Platform",
-                    "periodStart": "Jul'18",
-                    "periodEnd": "Sep'18",
-                    "details": [
-                        "Developed feature to use RSS feed for email creative creation."
+                        "빌링 시스템 운영팀.",
+                        "기술연구소 팀 내에 새로운 프로젝트가 많지 않아 코딩하고 싶은 욕구에 인사이동을 신청.",
+                        "서비스개발1팀 당시에 운영했던 고객사들이 대부분 해당 팀에 넘어와서 업무적으로 크게 어렵지 않았다.",
+                        "바람대로, 팀 이동과 동시에 여러 이슈를 즉각적으로 해결.",
+                        "팀의 중간급으로 자리 잡으며, PL의 역할을 수행."
                     ]
                 }
             ],
             "type": "work",
-            "status": "ASP.NET / JQuery / MSSQL / JIRA / Slack"
-        },
-        {
-            "sn": 1,
-            "link": "https://www.cohesity.com",
-            "workPosition": "Member of Technical Staff 3",
-            "periodStart": "Feb'20",
-            "periodEnd": "July'21",
-            "organisation": "Cohesity",
-            "experience": [{
-                "project": "Squad: Data Protection Virtualisation",
-                "periodStart": "Feb'20",
-                "periodEnd": "July'21",
-                "details": [
-                    "Developed Distributed Data Protection System Software using Modern C++, Google Protobufs, gRPC.",
-                    "Reviwed Product Requirement documents and created Software System Design documents.",
-                    "Planned & Executed End-to-End feature development following Agile Sprint Methodology.",
-                    "Delivered highly Robust, Distributed, Crash-consistent, Asynchronous, Multi-threaded C++ code.",
-                    "Responsibilities included Designing, Developing & Optimizing Backup & Recovery solutions.",
-                    "Debugging & Resolving Customer Escalations by actively getting on Customer calls.",
-                    "Differential Restore of VMware VMs: Designed, developed & integrated the feature, resulting in reduced amount of data transfer for VM recovery.",
-                    "Application Consistent Backup of Acropolis AHV VMs using Nutanix Guest Tools: Designed, developed & integrated reducing backup stun issues.",
-                    "Data Protect Source Connectivity Verification: Designed, developed & integrated a new data protect source connectivity verification feature.",
-                    "Netapp Storage Snapshot Management: Designed & developed new backup solution for Netapp Storage Array Snapshots Management."
-                ]
-            }],
-            "type": "work",
-            "status": "ASP.NET / JQuery / MSSQL / JIRA / Slack"
-        },
-        {
-            "sn": 2,
-            "link": "https://www.bloomberg.com",
-            "workPosition": "Senior Software Engineer",
-            "periodStart": "Aug'21",
-            "periodEnd": "Present",
-            "organisation": "Bloomberg Lp",
-            "experience": [{
-                "project": "Team: Exchange Trading Connectivity Europe",
-                "periodStart": "Aug'21",
-                "periodEnd": "Present",
-                "details": [
-                    "Developing Exchange Trading Connectivity Software Solutions using C++, Python & FIX."
-                ]
-            }],
-            "type": "work",
-            "status": "Fulltime",
-            "location": "Frankfurt am Main, Germany"
+            "status": "정규직"
         }
     ],
     "projects": [{
-            "show": false,
+            "show": true,
             "sn": 14,
             "projectTitle": "Traffic Rules",
             "periodStart": "Jul'15",
@@ -178,319 +137,6 @@
                 "Mini project for Data Structures course."
             ],
             "link": "https://github.com/moghya/smartHMS"
-        },
-        {
-            "show": true,
-            "sn": 12,
-            "projectTitle": "Seat Allocation",
-            "periodStart": "Dec'15",
-            "periodEnd": "Dec'15",
-            "toolsUsed": [
-                "c++"
-            ],
-            "tags": [
-                "c++",
-                "gayle-shapely",
-                "ds",
-                "oop"
-            ],
-            "info": [
-                "C++ Implementation of modified Gayle-Shapely algorithm for Simulation of college seat allocation process.",
-                "Candidates' Choice filling & Seat Allocation is implemented."
-            ],
-            "link": "https://github.com/moghya/collegeSeatAllocationPrototype"
-        },
-        {
-            "show": true,
-            "sn": 11,
-            "projectTitle": "Online External Examination Portal",
-            "periodStart": "Feb'16",
-            "periodEnd": "May'16",
-            "toolsUsed": [
-                "php",
-                "js",
-                "mysql",
-                "html",
-                "css",
-                "bootstrap"
-            ],
-            "tags": [
-                "php",
-                "js",
-                "bootstrap",
-                "mysql"
-            ],
-            "info": [
-                "Web application developed using PHP , MySQL, Bootstrap, JavaScript for conducting lab exams online."
-            ],
-            "link": "https://github.com/moghya/external-exam-portal"
-        },
-        {
-            "show": false,
-            "sn": 9,
-            "projectTitle": "LookIn",
-            "periodStart": "Mar'16",
-            "periodEnd": "May'16",
-            "toolsUsed": [
-                "python",
-                "sqllite3",
-                "beautifulsoup",
-                "requests"
-            ],
-            "tags": [
-                "search engine",
-                "python",
-                "indexing",
-                "web scraping"
-            ],
-            "info": [
-                "Simple search engine developed using Python modules such as Beautifulsoup, Requests.",
-                "Crawler is implemented to crawl downloaded websites & create indexes.",
-                "Built index is stored in sqlite3 db. This index is queried to return search results."
-            ],
-            "link": ""
-        },
-        {
-            "show": true,
-            "sn": 3,
-            "projectTitle": "dsalglib ",
-            "periodStart": "May'16",
-            "periodEnd": "Present",
-            "toolsUsed": [
-                "c++",
-                "cmake"
-            ],
-            "tags": [
-                "ds",
-                "algo",
-                "template",
-                "c++"
-            ],
-            "info": [
-                "Templated Object Oriented C++ library of 15+ data structures & algorithms.",
-                "Attempt of developing something similar to that of STL from scratch."
-            ],
-            "link": "https://moghya.me/dsalglib/"
-        },
-        {
-            "show": true,
-            "sn": 1,
-            "projectTitle": "Strategic Location using Facebook Data",
-            "periodStart": "Dec'16",
-            "periodEnd": "Dec'16",
-            "toolsUsed": [
-                "python",
-                "scikit-learn",
-                "ipynb",
-                "graph-api"
-            ],
-            "tags": [
-                "machine-learning",
-                "regression",
-                "python"
-            ],
-            "info": [
-                "Applied Machine Learning techniques & built a model to predict Facebook Check-ins at a desired location for business."
-            ],
-            "link": "https://github.com/moghya/Stratergic-Location"
-        },
-        {
-            "show": true,
-            "sn": 2,
-            "projectTitle": "prowessIndex",
-            "periodStart": "Jun'17",
-            "periodEnd": "Jun'17",
-            "toolsUsed": [
-                "python",
-                "flask",
-                "pandas"
-            ],
-            "tags": [
-                "python",
-                "data analytics"
-            ],
-            "info": [
-                "Flask web application serving implementation of a paper that I worked on.",
-                "'Making Sense of Numbers' is paper that proposes method for deriving inferences about prowess of a stduent in certain skills by using attained grades in university exams."
-            ],
-            "link": "https://novatoscript.pythonanywhere.com/"
-        },
-        {
-            "show": true,
-            "sn": 7,
-            "projectTitle": "FollowScreen",
-            "periodStart": "Jul'16",
-            "periodEnd": "Jul'16",
-            "toolsUsed": [
-                "python",
-                "pyautogui",
-                "tkinter"
-            ],
-            "tags": [
-                "screen-recording",
-                "python",
-                "autmation"
-            ],
-            "info": [
-                "Screen recorder developed using Python modules PyAutoGUI, PIL and TKinter."
-            ],
-            "link": "https://github.com/moghya/followscreen"
-        },
-        {
-            "show": true,
-            "sn": 8,
-            "projectTitle": "Digital Library Portal",
-            "periodStart": "Feb'17",
-            "periodEnd": "May'17",
-            "toolsUsed": [
-                "QuilJs",
-                "php",
-                "mysql",
-                "JavaScript"
-            ],
-            "tags": [
-                "webapp",
-                "php",
-                "mysql",
-                "js",
-                "materialize"
-            ],
-            "info": [
-                "Developed a Digital Library Portal for College Library as PHP, MySQL web application.",
-                "All of the sections are dynamic & everything is editable using Admin Panel.",
-                "Used Quill-Js for implementing Editor for Admin.."
-            ],
-            "link": "#"
-        },
-        {
-            "show": true,
-            "sn": 5,
-            "projectTitle": "Book Bank Allotment System",
-            "periodStart": "Jan'17",
-            "periodEnd": "May'17",
-            "toolsUsed": [
-                "php",
-                "mongodb",
-                "js"
-            ],
-            "tags": [
-                "mongodb",
-                "nosql",
-                "php"
-            ],
-            "info": [
-                "Developed a Web Application using PHP & MongoDB for Book Bank Allotment done by AGCL library of WCE, Sangli.",
-                "Automated manual process of allocation by reducing time taken from almost 15-20 days to a few minutes."
-            ],
-            "link": "#"
-        },
-        {
-            "show": true,
-            "sn": 4,
-            "projectTitle": "Detection & Prevention of Black hole Attack in MANET",
-            "periodStart": "Jul'16",
-            "periodEnd": "Nov'16",
-            "toolsUsed": [
-                "c++",
-                "ns2",
-                "tcl",
-                "awk"
-            ],
-            "tags": [
-                "c++",
-                "blackhole-attack",
-                "ns2"
-            ],
-            "info": [
-                "Made changes in AODV protocol to simulate Black hole attack in Mobile & Adhoc Network using NS2​",
-                "Implemented techniques for prevention of the Attack."
-            ],
-            "link": "#"
-        },
-        {
-            "show": true,
-            "sn": 10,
-            "projectTitle": "JNV Washim Alumni Portal",
-            "periodStart": "Dec'15",
-            "periodEnd": "Jan'16",
-            "toolsUsed": [
-                "php",
-                "mysql",
-                "js"
-            ],
-            "tags": [
-                "webapp",
-                "php",
-                "mysql",
-                "js"
-            ],
-            "info": [
-                "Developed a Web Application for Alumni Portal of Jawahar Navodaya Vidyalaya,Washim.",
-                "It was developed using PHP, HTML, CSS, JavaScript, Bootstrap. All out of scratch. We used MySQL database.",
-                "Alumni of JNV Washim have to register here with there details & we can search for Alumnus with filters."
-            ],
-            "link": "#"
-        },
-        {
-            "show": true,
-            "sn": 6,
-            "projectTitle": "toGithub",
-            "periodStart": "May'17",
-            "periodEnd": "Present",
-            "toolsUsed": [
-                "python",
-                "PyGithub",
-                "requests",
-                "beautifulsoup"
-            ],
-            "tags": [
-                "scraping",
-                "git-api"
-            ],
-            "info": [
-                "Python utility developed for scraping solutions from Sport Programming Websites & uploding them to Github."
-            ],
-            "link": "https://github.com/moghya/toGithub"
-        },
-        {
-            "show": true,
-            "sn": -1,
-            "projectTitle": "Cheat Bot using Deep Learning",
-            "periodStart": "Jun'18",
-            "periodEnd": "Jun'18",
-            "toolsUsed": [
-                "python",
-                "numpy",
-                "PIL",
-                "requests",
-                "tf"
-            ],
-            "tags": [],
-            "info": [
-                "Reverse engineered an android game involving betting over solving math equations.",
-                "Trained a CNN model with 98.79% accuracy to solve the equations"
-            ],
-            "link": "https://medium.com/howcatcancode/how-i-hacked-747-game-7ecffdc74718"
-        },
-        {
-            "show": true,
-            "sn": -2,
-            "projectTitle": "Lezhin Comics 빌링 시스템 운영",
-            "periodStart": "2018.10.01",
-            "periodEnd": "Present",
-            "toolsUsed": [
-                "ASP.NET",
-                "JQuery",
-                "MS-SQL"
-            ],
-            "tags": [],
-            "info": [
-                        "Lezin Comics의 결제 시스템 연동 및 빌링 시스템 운영",
-                        "결제수단 연동 및 유저 과금 관리.",
-                        "GPOQ, Stripe, GMO, SoftBank 등의 결제 수단 연동 (일반결제/정기결제)",
-                        "배치 프로그램을 통한 업무 자동화 (대사 작업)"
-            ],
-            "link": "https://www.lezhinus.com/en/"
         }
     ],
     "summary": "<p> 안녕하세요! 5년차 백엔드 개발자 최연웅입니다. <br/> Clean Code와 효율적인 코딩에 대한 고민을 생활화합니다. <br/> 내 자신을 되돌아 볼 줄 알아야 나에대한 노력을 할 수 있습니다. <br/> 어제 입사한 신입에게도 배울 것이 있다는 것을 항상 생각합니다. <br/> 모르는 것은 부끄러운 것이 아니라 모른 채로 있는 것이 부끄러운 것 입니다.</p>",
@@ -557,13 +203,5 @@
             "icon": "tent.svg",
             "sn": 10
         }
-    ],
-    "qoutes": [
-        "Your death is something that happens to everyone else.",
-        "You only live as long as the last person who remembers you.",
-        "Every day every hour turn the pain into power.",
-        "If you cannot be a pencil to write someone's happiness, then try to be an erases to erase someone's sorrows.",
-        "Tabs are better than spaces."
-    ],
-    "helloText": "<p>Dear Visitor, Thank you for visiting my webspace.</p>\n<p>I'm working as Member of Technical Staff at <a href='https://cohesity.com'>Cohesity</a></p>\n<p>Before this I used work as Software Development Engineer at <a href='http://media.net'>Media.Net</a>. I completed  B.Tech Information Technology at <a href='http://walchandsangli.ac.in'>Walchand College of Engineering Sangli</a> & my schooling from <a href='http://jnvwashim.gov.in'>Jawahar Navodaya Vidyalaya, Washim</a>.</p>\n\n<p>I'm interested in Algorithms, System Programming, Distributed Systems & Machine Learning. I overwhelmingly like C++, Python & Javascript :)</p>\n\n<p>How can I help you?</br>I can design, develop & deliver technological solutions to your problems.</p><p>Do we have something in common? If yes, let's have a talk about it & grow together.</p> <p> We don't have anything in common?</br>That's fine,please introduce me something that I'm missing.</p>"
+    ]
 }

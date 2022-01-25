@@ -78,7 +78,7 @@ function loadWorks(experince) {
             }
             experienceDetails += `
 			<div class="row team">
-				<span class="teamName">[${team.periodStart}-${team.periodEnd}] ${team.project}</span>
+				<span class="teamName">[${team.periodStart}-${team.periodEnd}] ${team.team}</span>
 				<div class="row">${teamExpDetails}</div>
 			</div>
 			`;
@@ -158,54 +158,54 @@ function onBodyLoad() {
     $('div.content').css('display', 'block');
 }
 
-swal({
-        title: "Hello World!!!",
-        text: "Hello visitor, you have landed upon little webspace of Yeon-Woong. I hope you're doing well. \n Are you hiring ?",
-        buttons: {
-            confirm: {
-                text: "Yes, I'm hiring.",
-                value: true,
-                visible: true,
-                className: "button-confirm",
-                closeModal: true
-            },
-            cancel: {
-                text: "Nope :)",
-                value: false,
-                visible: true,
-                className: "button-cancel",
-                closeModal: true,
-            }
-        }
-    })
-    .then((value) => {
-        if (value === true) {
-            swal({
-                title: "Hello Talent Scout,",
-                text: "Thank you for visiting my webspace. I hope you'll find relevant information here. If you need any other information, kindly reach to me. \n\n Do you need my CV?",
-                buttons: {
-                    confirm: {
-                        text: "Yes.",
-                        value: true,
-                        visible: true,
-                        className: "button-confirm",
-                        closeModal: true
-                    },
-                    cancel: {
-                        text: "I have it.",
-                        value: false,
-                        visible: true,
-                        className: "button-cancel",
-                        closeModal: true,
-                    }
-                }
-            }).then((value) => {
-                if (value === true) {
-                    window.open('/Shubham_Sawant_3YoE_SDE_Nov21.pdf');
-                }
-            })
-        }
-    });
+// swal({
+//         title: "Hello World!!!",
+//         text: "Hello visitor, you have landed upon little webspace of Yeon-Woong. I hope you're doing well. \n Are you hiring ?",
+//         buttons: {
+//             confirm: {
+//                 text: "Yes, I'm hiring.",
+//                 value: true,
+//                 visible: true,
+//                 className: "button-confirm",
+//                 closeModal: true
+//             },
+//             cancel: {
+//                 text: "Nope :)",
+//                 value: false,
+//                 visible: true,
+//                 className: "button-cancel",
+//                 closeModal: true,
+//             }
+//         }
+//     })
+//     .then((value) => {
+//         if (value === true) {
+//             swal({
+//                 title: "Hello Talent Scout,",
+//                 text: "Thank you for visiting my webspace. I hope you'll find relevant information here. If you need any other information, kindly reach to me. \n\n Do you need my CV?",
+//                 buttons: {
+//                     confirm: {
+//                         text: "Yes.",
+//                         value: true,
+//                         visible: true,
+//                         className: "button-confirm",
+//                         closeModal: true
+//                     },
+//                     cancel: {
+//                         text: "I have it.",
+//                         value: false,
+//                         visible: true,
+//                         className: "button-cancel",
+//                         closeModal: true,
+//                     }
+//                 }
+//             }).then((value) => {
+//                 if (value === true) {
+//                     window.open('/Shubham_Sawant_3YoE_SDE_Nov21.pdf');
+//                 }
+//             })
+//         }
+//     });
 
 
 function loadMoghysSays() {
@@ -221,7 +221,7 @@ function loadMoghysSays() {
     $('#mySays').html(mySaysInnerHtml);
 }
 
-$.get("https://woong-git.github.io/js/profile.json",
+$.get("/js/profile.json",
     function(data, status) {
         console.log('Got profile:', data, ' \nwith status:', status);
         if (status !== "success") {
@@ -243,4 +243,26 @@ $.get("https://woong-git.github.io/js/profile.json",
         loadMoghysSays();
         console.log('body loaded calling');
         onBodyLoad();
-    });
+    }, $.get("https://woong-git.github.io/js/profile.json",
+    function(data, status) {
+        console.log('Got profile:', data, ' \nwith status:', status);
+        if (status !== "success") {
+            window.location.href = "/error.html";
+        }
+        let profile = data;
+        let pInfo = profile.personalInfo;
+        $('#name').html(`${pInfo.fname} ${pInfo.lname}<sub>&lt;${pInfo.nick}&gt;`);
+        $('#name').css(`float`,`right`);
+        // $('#nick').html('&lt' + pInfo.nick + '/&gt');
+        $('#image img').attr('src', 'img/' + pInfo.myimg);
+        $('#contact').html(`<span>${pInfo.mob}</span></br><span><a href="mailto:${pInfo.email}">${pInfo.email}</a></span>`);
+        $('#summary').html(profile.summary);
+        loadLinks(profile.profileLinks);
+        loadSkills(profile.skills);
+        loadProjects(profile.projects);
+        loadWorks(profile.experince);
+        loadEducations(profile.educations);
+        loadMoghysSays();
+        console.log('body loaded calling');
+        onBodyLoad();
+    }));
