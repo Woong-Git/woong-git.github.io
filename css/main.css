@@ -106,6 +106,7 @@ div.content {
 
 .row.project,
 .row.education,
+.row.certificate,
 .row.work {
     padding: 1%;
 }

@@ -60,6 +60,24 @@ function loadProjects(projects) {
     $('#projects').html(`<div class="row section"><h4>Projects</h4>${projectsInnerHTML}</div>`);
 }
 
+function loadCertificates(certificates) {
+    var certificatesInnerHTML = '';
+    console.log(certificates);
+    // for (let i = 0; i < certificates.length; i++) {
+    //     certificate = `<div class="row certificate">
+	// 					<div class="row title"><span>${certificates[i].name}</span></div>
+	// 					<div class="row golden">
+	// 						<div class="col m8 s8"><span>${certificates[i].authority}</span></div>
+	// 						<div class="col m4 s4 period">
+	// 							<span>${certificates[i].date}</span>
+	// 						</div>
+	// 					</div>
+	// 				</div>`;
+    //                 certificatesInnerHTML += certificate;
+    // }
+    $('#certificate').html(`<div class="row section"><h4>Certificate</h4>${certificatesInnerHTML}</div>`);
+}
+
 function loadWorks(experince) {
     experince.sort(function(a, b) {
         return a.sn - b.sn;
@@ -237,6 +255,7 @@ $.get("/js/profile.json",
         $('#summary').html(profile.summary);
         loadLinks(profile.profileLinks);
         loadSkills(profile.skills);
+        loadCertificates(profile.Certificates);
         loadProjects(profile.projects);
         loadWorks(profile.experince);
         loadEducations(profile.educations);
@@ -259,6 +278,7 @@ $.get("/js/profile.json",
         $('#summary').html(profile.summary);
         loadLinks(profile.profileLinks);
         loadSkills(profile.skills);
+        loadCertificates(profile.Certificates);
         loadProjects(profile.projects);
         loadWorks(profile.experince);
         loadEducations(profile.educations);

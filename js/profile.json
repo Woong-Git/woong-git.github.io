@@ -96,28 +96,26 @@
     ],
     "projects": [{
             "show": true,
-            "sn": 14,
-            "projectTitle": "Traffic Rules",
-            "periodStart": "Jul'15",
-            "periodEnd": "Nov'15",
+            "sn": 0,
+            "projectTitle": "Lezhin Comics",
+            "periodStart": "2018.10.01",
+            "periodEnd": "Present",
             "toolsUsed": [
-                "Blender",
-                "Movie Maker"
-            ],
-            "tags": [
-                "blender",
-                "animation",
-                "3d-modelling",
-                "traffic rules"
+                "C#",
+                "ASP.Net",
+                "MSSQL",
+                "JIRA",
+                "Slack"
             ],
             "info": [
-                "Its a 3D animation video made using Blender Tool for spreading awareness regarding Traffic rules. Mini project for semester III."
+                "Lezhin Comics 컨텐츠에 대한 빌링 시스템 운영.",
+                "결제 수단은 연동(일반결제, 정기결제)하고 컨텐츠 구매에 대한 과금처리."
             ],
-            "link": "https://github.com/moghya/Traffic-Rules"
+            "link": "https://www.lezhinus.com/en"
         },
         {
             "show": true,
-            "sn": 13,
+            "sn": 1,
             "projectTitle": "Smart Hospital Management",
             "periodStart": "Aug'15",
             "periodEnd": "Sep'15",
@@ -153,55 +151,18 @@
             "sn": 1
         }
     ],
-    "likes": [{
-            "name": "Programming",
-            "icon": "programming.svg",
-            "sn": 1
+    "Certificates": [{
+            "sn": 1,
+            "name": "정보처리기사",
+            "authority": "한국산업인력공단",
+            "date": "2017.05"
         },
         {
-            "name": "Maths",
-            "icon": "maths.svg",
-            "sn": 2
-        },
-        {
-            "name": "Armed Forces",
-            "icon": "soldier.svg",
-            "sn": 3
-        },
-        {
-            "name": "Reading",
-            "icon": "book.svg",
-            "sn": 4
-        },
-        {
-            "name": "Singing",
-            "icon": "singer.svg",
-            "sn": 5
-        },
-        {
-            "name": "Watermelon",
-            "icon": "watermelon.svg",
-            "sn": 6
-        },
-        {
-            "name": "Chicken",
-            "icon": "chicken.svg",
-            "sn": 7
-        },
-        {
-            "name": "Cycling",
-            "icon": "cycling.svg",
-            "sn": 8
-        },
-        {
-            "name": "Trekking",
-            "icon": "trek.svg",
-            "sn": 9
-        },
-        {
-            "name": "Camping",
-            "icon": "tent.svg",
-            "sn": 10
+            "sn": 2,
+            "name": "SQL개발자(SQLD자격)",
+            "authority": "한국데이터베이스진흥센터",
+            "date": "2020.09"
         }
+
     ]
 }
