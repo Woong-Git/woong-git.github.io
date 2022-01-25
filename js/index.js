@@ -40,8 +40,11 @@ function loadProjects(projects) {
         project = `
 			<div class="row project">
                 <div class="row">
-                    <span class="title">${projects[i].projectTitle}</span>
-                    ${projectLink}
+                    <div class="col m5 s5">
+                        <span class="title">${projects[i].projectTitle}</span>
+                        ${projectLink}
+                    </div>
+                    <div class="col m7 s7 position"><span class="title">${projects[i].position}</span></div>
                 </div>
                 <div class="row golden">
                     <div class="col m8 s8">
@@ -63,18 +66,18 @@ function loadProjects(projects) {
 function loadCertificates(certificates) {
     var certificatesInnerHTML = '';
     console.log(certificates);
-    // for (let i = 0; i < certificates.length; i++) {
-    //     certificate = `<div class="row certificate">
-	// 					<div class="row title"><span>${certificates[i].name}</span></div>
-	// 					<div class="row golden">
-	// 						<div class="col m8 s8"><span>${certificates[i].authority}</span></div>
-	// 						<div class="col m4 s4 period">
-	// 							<span>${certificates[i].date}</span>
-	// 						</div>
-	// 					</div>
-	// 				</div>`;
-    //                 certificatesInnerHTML += certificate;
-    // }
+    for (let i = 0; i < certificates.length; i++) {
+        certificate = `<div class="row certificate">
+						<div class="row title"><span>${certificates[i].name}</span></div>
+						<div class="row golden">
+							<div class="col m8 s8"><span>${certificates[i].authority}</span></div>
+							<div class="col m4 s4 period">
+								<span>${certificates[i].date}</span>
+							</div>
+						</div>
+					</div>`;
+                    certificatesInnerHTML += certificate;
+    }
     $('#certificate').html(`<div class="row section"><h4>Certificate</h4>${certificatesInnerHTML}</div>`);
 }
 
@@ -112,7 +115,7 @@ function loadWorks(experince) {
 				<div class="col m7 s7 position"><span class="title">${works[i].workPosition}</span></div>
 			</div>
 			<div class="row golden">
-				<div class="col m7 s5">${works[i].status} - ${works[i].location}</div>
+				<div class="col m7 s5">${works[i].status}</div>
 				<div class="col m5 s7 period">${works[i].periodStart} - ${works[i].periodEnd}</div>
 			</div>
 			<div class="row details">${experienceDetails}</div>
