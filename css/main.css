@@ -17,7 +17,7 @@ div.content {
 }
 
 .title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     /* color: #01a252; */
     color: rgb(19, 145, 145);
@@ -39,7 +39,7 @@ div.content {
 }
 
 .project.row {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 
 .work .col {
@@ -115,7 +115,6 @@ div.content {
     color: #663399;
 }
 
-.row.project,
 .row.education,
 .row.certificate,
 .row.work {
