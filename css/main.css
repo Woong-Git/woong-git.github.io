@@ -26,9 +26,20 @@ div.content {
 .position {
     text-align: right;
 }
-
 .project .col {
     padding: 0;
+}
+
+.project {
+    padding-bottom: 3%;
+}
+
+.project.col {
+    padding-bottom: 2%;
+}
+
+.project.row {
+    padding-bottom: 3%;
 }
 
 .work .col {

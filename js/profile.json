@@ -97,7 +97,7 @@
     "projects": [{
             "show": true,
             "sn": 0,
-            "projectTitle": "Lezhin Comics 빌링시스템 운영",
+            "projectTitle": "Lezhin Comics",
             "periodStart": "2018.10.01",
             "periodEnd": "Present",
             "position": "Project Leader",
@@ -118,9 +118,9 @@
         {
             "show": true,
             "sn": 1,
-            "projectTitle": "Netgame 빌링시스템 Java Converting 및 운영",
+            "projectTitle": "Netgame 빌링시스템 Java 변환 및 운영",
             "periodStart": "2019.08.01",
-            "periodEnd": "2020.03.17(개발) / Present(운영)",
+            "periodEnd": "2020.03.17",
             "position": "Project Engineer",
             "toolsUsed": [
                 "Java",
@@ -137,7 +137,7 @@
                 "Java 프로젝트를 하고싶다는 계속적인 어필로 인하여 참여.",
                 "입사 후 첫 Java 프로젝트였음으로 PL의 의도대로 코더처럼 진행.",
                 "Java, MariaDB와 Vue.js에 모두 익숙치 않아서 고생을 많이 하였으나 그만큼 값진 경험을 했다고 생각.",
-                "이후 운영까지 담당하면서 별 다른 이슈없이 안정적으로 운영중."
+                "이후 운영까지 담당하면서 별 다른 이슈없이 안정적으로 운영중. (운영기간: 2020.03.17-Present)"
             ],
             "link": "http://www.netgame.com"
         },

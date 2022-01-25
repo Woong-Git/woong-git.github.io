@@ -40,11 +40,11 @@ function loadProjects(projects) {
         project = `
 			<div class="row project">
                 <div class="row">
-                    <div class="col m5 s5">
+                    <div class="col m7 s7">
                         <span class="title">${projects[i].projectTitle}</span>
                         ${projectLink}
                     </div>
-                    <div class="col m7 s7 position"><span class="title">${projects[i].position}</span></div>
+                    <div class="col m5 s5 position"><span class="title">${projects[i].position}</span></div>
                 </div>
                 <div class="row golden">
                     <div class="col m8 s8">
@@ -65,7 +65,6 @@ function loadProjects(projects) {
 
 function loadCertificates(certificates) {
     var certificatesInnerHTML = '';
-    console.log(certificates);
     for (let i = 0; i < certificates.length; i++) {
         certificate = `<div class="row certificate">
 						<div class="row title"><span>${certificates[i].name}</span></div>
