@@ -37,7 +37,7 @@
         gtag('config', 'UA-144249374-1');
     </script>
 
-    <link rel="shortcut icon" type="image/png" href="/img/favicon.ico" />
+    <link rel="shortcut icon" type="image/png" href="/img/favicon/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -67,19 +67,54 @@
     </div>
     <div id="content" class="row">
         <div class="col m8 offset-m2 s12">
-            <div id="home" class="row page">
-                <div class="row">
+            <!-- <div>
+                <div id="image" class="row image" ><img class="circle center-align" src="" alt="profile-image"></div>
+                <div class="row name">
                     <h1 id="name" class="center-align"></h1>
+                    <div>
+                        <div id="contact" class="contact"></div>
+                        <div class="s12">
+                            <h6 class="title">직장 생활 신조:</h6>	
+                            <p>최고의 복지는 최고의 동료다. <br/>최고의 동료가 되자.</p>
+                    </div>
+                    </div>
                 </div>
-                <div id="image" class="row" style="float: left; width: 40%;"><img class="circle center-align" src="" alt="profile-image"></div>
-                <div id="contact" class="row"></div>
-                <div id="summary" class="row content-text "></div>
+            </div> -->
+
+            <div>
+                <table style="width: 100%;">
+                    <tr>
+                        <td rowspan="2" class="image">
+                            <div id="image" class="row" ><img class="circle center-align" src="" alt="profile-image"></div>
+                        </td>
+                        <td>
+                            <div class="row name">
+                                <h1 id="name" class="name"></h1>
+                            </div>
+                            <div id="contact" class=""></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            <div id="contact" class="row contact"></div>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <div id="home" class="row page">
                 <!-- <div id="helloText" class="row content-text "></div> -->
                 <!-- <div id="hello" class="info row">
                         <div id="believe" class="col m6 s12 "></div>
                         <div id="likes" class="col title m6 s12"></div>
                     </div> -->
             </div>
+
+            <div id="summary" class="row content-text ">
+                <h6 class="title">인사말:</h6>	</div>
             <hr />
             <div id="skills" class="row page"></div>
             <hr />

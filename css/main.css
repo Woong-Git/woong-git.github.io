@@ -255,3 +255,23 @@ button:hover {
 .swal-button-container {
     display: inline;
 }
+
+.name {
+    /* float: right; */
+    vertical-align: top;
+    text-align: right;
+}
+
+.contact {
+    float: right;
+}
+
+.image {
+    float: left; 
+    width: 40%;
+    margin: 0 2% 0 2%;
+}
+
+.image img {
+    width: 100%;
+}

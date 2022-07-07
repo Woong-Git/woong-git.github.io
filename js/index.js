@@ -230,10 +230,7 @@ function onBodyLoad() {
 
 function loadMoghysSays() {
     const mySaysInnerHtml = `
-	<div class="col m6 s12">
-		<h6 class="title">직장 생활 신조:</h6>	
-		<p>최고의 복지는 최고의 동료다. <br/>최고의 동료가 되자.</p>
-	</div>
+
 	<div class="col m6 s12 gratitudes">
 		<h6 class="title">Warm Gratitudes</h6>
 		<a href="https://github.com/moghya/moghya.github.io/">Shubham Sawant</a>
@@ -241,50 +238,37 @@ function loadMoghysSays() {
     $('#mySays').html(mySaysInnerHtml);
 }
 
-$.get("/js/profile.json",
+$.get("js/profile.json",
     function(data, status) {
         console.log('Got profile:', data, ' \nwith status:', status);
-        if (status !== "success") {
-            window.location.href = "/error.html";
-        }
-        let profile = data;
-        let pInfo = profile.personalInfo;
-        $('#name').html(`${pInfo.fname} ${pInfo.lname}<sub>&lt;${pInfo.nick}/&gt;`);
-        $('#name').css(`float`,`right`);
-        // $('#nick').html('&lt' + pInfo.nick + '/&gt');
-        $('#image img').attr('src', 'img/' + pInfo.myimg);
-        $('#contact').html(`<span>${pInfo.mob}</span></br><span><a href="mailto:${pInfo.email}">${pInfo.email}</a></span>`);
-        $('#summary').html(profile.summary);
-        loadLinks(profile.profileLinks);
-        loadSkills(profile.skills);
-        loadCertificates(profile.Certificates);
-        loadProjects(profile.projects);
-        loadWorks(profile.experince);
-        loadEducations(profile.educations);
-        loadMoghysSays();
-        console.log('body loaded calling');
-        onBodyLoad();
+        console.log('local load');
+        mapping(data, status);
+
     }, $.get("https://woong-git.github.io/js/profile.json",
     function(data, status) {
         console.log('Got profile:', data, ' \nwith status:', status);
-        if (status !== "success") {
-            window.location.href = "/error.html";
-        }
-        let profile = data;
-        let pInfo = profile.personalInfo;
-        $('#name').html(`${pInfo.fname} ${pInfo.lname}<sub>&lt;${pInfo.nick}&gt;`);
-        $('#name').css(`float`,`right`);
-        // $('#nick').html('&lt' + pInfo.nick + '/&gt');
-        $('#image img').attr('src', 'img/' + pInfo.myimg);
-        $('#contact').html(`<span>${pInfo.mob}</span></br><span><a href="mailto:${pInfo.email}">${pInfo.email}</a></span>`);
-        $('#summary').html(profile.summary);
-        loadLinks(profile.profileLinks);
-        loadSkills(profile.skills);
-        loadCertificates(profile.Certificates);
-        loadProjects(profile.projects);
-        loadWorks(profile.experince);
-        loadEducations(profile.educations);
-        loadMoghysSays();
-        console.log('body loaded calling');
-        onBodyLoad();
+        console.log('server load');
+        mapping(data, status);
     }));
+
+function mapping(data, status) {
+    if (status !== "success") {
+        window.location.href = "/error.html";
+    }
+    let profile = data;
+    let pInfo = profile.personalInfo;
+    $('#name').html(`${pInfo.fname} ${pInfo.lname}<sub>&lt;${pInfo.nick}/&gt;`);
+    $('#name').css(`float`,`right`);
+    // $('#nick').html('&lt' + pInfo.nick + '/&gt');
+    $('#image img').attr('src', 'img/' + pInfo.myimg);
+    $('#contact').html(`<span>${pInfo.mob}</span></br><span><a href="mailto:${pInfo.email}">${pInfo.email}</a></span>`);
+    $('#summary').append(profile.summary);
+    loadLinks(profile.profileLinks);
+    loadSkills(profile.skills);
+    loadCertificates(profile.Certificates);
+    loadProjects(profile.projects);
+    loadWorks(profile.experince);
+    loadEducations(profile.educations);
+    loadMoghysSays();
+    onBodyLoad();
+}
