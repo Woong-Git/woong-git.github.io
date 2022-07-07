@@ -1,7 +1,6 @@
 
 function loadSkills(skills) {
     var skillsInnerHTML = '';
-    console.log(skills);
 
     var row = "<div class='row'>";
     for(var i=0; i<skills.length; i++) {
@@ -245,14 +244,10 @@ function loadMoghysSays() {
 
 $.get("js/profile.json",
     function(data, status) {
-        console.log('Got profile:', data, ' \nwith status:', status);
-        console.log('local load');
         mapping(data, status);
 
     }, $.get("https://woong-git.github.io/js/profile.json",
     function(data, status) {
-        console.log('Got profile:', data, ' \nwith status:', status);
-        console.log('server load');
         mapping(data, status);
     }));
 
