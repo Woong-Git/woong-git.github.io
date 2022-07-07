@@ -21,8 +21,7 @@ div.content {
 }
 
 .title {
-    font-size: 1.3rem;
-    font-weight: bold;
+    font-size: 1.5rem;
     /* color: #01a252; */
     color: rgb(19, 145, 145);
 }
@@ -179,7 +178,7 @@ div.content {
 
 .skill span {
     display: block;
-    font-size: 1rem;
+    font-size: 1.15rem;
     text-align: center;
 }
 
@@ -192,7 +191,7 @@ div.content {
     margin: 1%;
     padding: 2%;
     border-radius: 50%;
-    font-size: 1.15rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -207,7 +206,7 @@ object {
 }
 
 #mySays {
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .period {
@@ -235,14 +234,13 @@ body {
     background-color: #ffffff;
     /* background-color: #646464; */
     color: #000000;
-    font-family: "Do Hyeon";
-    font-family: "Jua";
-    font-size: 1.15rem;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.40rem;
     font-display: auto;
 }
 
 h6 {
-    font-size: 1.15rem;
+    font-size: 1.40rem;
 }
 
 .swal-button {
