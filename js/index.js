@@ -1,21 +1,25 @@
+
 function loadSkills(skills) {
-    let i = 0;
     var skillsInnerHTML = '';
-    while (i < skills.length) {
-        var row = '<div class="row">';
-        for (let j = i; j < i + 12 && j < skills.length; j++) {
-            var skill = `
-				<div class="col m1 s3 skill">
-					<span class="icon"><i class="${skills[j][1]}"></i></span>
-					<span>${skills[j][0]}</span>
-				</div>`;
-            row += skill;
-            if(skills[j][0] == "")break;
+    console.log(skills);
+
+    var row = "<div class='row'>";
+    for(var i=0; i<skills.length; i++) {
+        if(skills[i][1] == "") {
+            row += "</div> <div class='row'>";
+        } else {
+        row += `
+            <div class="col m2 skill">
+                <span class="icon"><i class="${skills[i][1]}"></i></span>
+                <span>${skills[i][0]}</span>
+            </div>
+            `;
         }
-        row += '</div>';
-        skillsInnerHTML += row;
-        i += 12;
     }
+    row += "</div>";
+    skillsInnerHTML += row;
+
+    
     $('#skills').html(`<div class="row section"><h4>Tools</h4>${skillsInnerHTML}</div>`);
 }
 
