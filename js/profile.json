@@ -39,12 +39,16 @@
         ["Jquery", "devicon-jquery-plain colored"],
         ["JAVA", "devicon-java-plain colored"],
         ["Spring", "devicon-spring-plain"],
-        ["MSSQL", "devicon-microsoftsqlserver-plain-wordmark colored"],
+        ["",""],
+        ["MS-SQL", "devicon-microsoftsqlserver-plain-wordmark colored"],
         ["MySQL", "devicon-mysql-plain colored"],
-        ["VisualStudio", "devicon-visualstudio-plain colored"],
+        ["",""],
+        ["VS", "devicon-visualstudio-plain colored"],
         ["Intellij", "devicon-intellij-plain colored"],
+        ["",""],
         ["Git", "devicon-git-plain colored"],
-        ["Jira", "devicon-jira-plain colored"]
+        ["Jira", "devicon-jira-plain colored"],
+        ["Slack", "devicon-slack-plain colored"]
     ],
     "experince": [
         {

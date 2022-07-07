@@ -10,6 +10,7 @@ function loadSkills(skills) {
 					<span>${skills[j][0]}</span>
 				</div>`;
             row += skill;
+            if(skills[j][0] == "")break;
         }
         row += '</div>';
         skillsInnerHTML += row;
