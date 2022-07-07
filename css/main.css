@@ -2,6 +2,10 @@ div.content {
     display: none;
 }
 
+.row, li {
+    margin-top: 1%;
+}
+
 .progress {
     background-color: white;
     margin: 25% 0 0 0;
@@ -62,6 +66,8 @@ div.content {
 #content {
     position: absolute;
     top: 5%;
+    left: 10%;
+    width: 80%;
 }
 
 @media screen and (max-width: 1080px) {
@@ -106,6 +112,10 @@ div.content {
     margin-right: 20%;
 } */
 
+.details {
+    margin-top: 2%;
+}
+
 .details span {
     text-align: justify;
     display: block;
@@ -113,6 +123,10 @@ div.content {
 
 .teamName {
     color: #663399;
+}
+
+.row.team {
+    margin-top: 5%;
 }
 
 .row.education,
