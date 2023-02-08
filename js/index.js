@@ -257,7 +257,7 @@ function mapping(data, status) {
     }
     let profile = data;
     let pInfo = profile.personalInfo;
-    $('#name').html(`${pInfo.fname} ${pInfo.lname}<sub>&lt;${pInfo.nick}/&gt;`);
+    $('#name').html(`${pInfo.fname} ${pInfo.lname}<sub>&lt;${pInfo.nick}&gt;`);
     $('#name').css(`float`,`right`);
     // $('#nick').html('&lt' + pInfo.nick + '/&gt');
     $('#image img').attr('src', 'img/' + pInfo.myimg);

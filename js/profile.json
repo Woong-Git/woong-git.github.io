@@ -40,7 +40,7 @@
         ["JAVA", "devicon-java-plain colored"],
         ["Spring", "devicon-spring-plain"],
         ["",""],
-        ["MS-SQL", "devicon-microsoftsqlserver-plain-wordmark colored"],
+        ["MSSQL", "devicon-microsoftsqlserver-plain-wordmark colored"],
         ["MySQL", "devicon-mysql-plain colored"],
         ["",""],
         ["VS", "devicon-visualstudio-plain colored"],
@@ -257,7 +257,7 @@
             "link": "http://astelliaroyal.itoxi.co.kr/"
         }
     ],
-    "summary": "<p> 안녕하세요! 5년차 백엔드 개발자 최연웅입니다. <br/> Clean Code와 효율적인 코딩에 대한 고민을 생활화합니다. <br/> 내 자신을 되돌아 볼 줄 알아야 나에대한 노력을 할 수 있습니다. <br/> 어제 입사한 신입에게도 배울 것이 있다는 것을 항상 생각합니다. <br/> 모르는 것은 부끄러운 것이 아니라 모른 채로 있는 것이 부끄러운 것 입니다.</p>",
+    "summary": "<p> 안녕하세요! <br/> 5년차 백엔드 개발자 최연웅입니다. <br/> Clean Code와 효율적인 코딩에 대한 고민을 생활화합니다. <br/> 내 자신을 되돌아 볼 줄 알아야 나에대한 노력을 할 수 있습니다. <br/> 일을 함에 있어서, 함께 일하는 사람이 가장 중요하고 소중합니다.</p>",
     "profileLinks": [
         {
             "name": "LinkedIn",
